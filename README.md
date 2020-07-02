@@ -37,7 +37,7 @@
 ### **System Testing**
 
 * Show awareness of why errors occur
-* 
+
 * Show understanding of how **testing** can expose possible errors.
 
 * Appreciate the significance of testing throughout software development.
