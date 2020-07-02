@@ -1,4 +1,6 @@
-**You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.**
+![Logo](https://media.discordapp.net/attachments/517467940463968261/728231743894847579/unknown.png?width=100&height=100)
+
+**You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.** 
 
 ## **Introduction**
 * **Detailed** description of your project including *user/s* and *user requirements*.
