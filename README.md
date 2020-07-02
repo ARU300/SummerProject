@@ -8,6 +8,8 @@
 ### Description of current system in place or lack of system. 
 
 * Who are the users?
+
+## Design
 	 
 ### **System Design**
 
@@ -27,6 +29,8 @@
 	* Structured English
 	* `Pseudocode`
 	* Program `flowchart`
+	
+## Testing
 				 
 ### **System implementation** 
 
@@ -45,6 +49,8 @@
 * Show understanding of the need for a *test strategy* and *test plan* and their likely contents.
 
 * Choose **appropriate** test data *(normal, abnormal and extreme/boundary)* for a test plan.
+
+##Review
 		 
 ### **User Review**
 * Ask your *prospective* users to test and provide **feedback** for your product.
@@ -60,5 +66,11 @@
 * Was it a success, why/why not?
 
 * How many of the `SMART` objectives did you meet – why/why not?
+
+## Final Comment
+
+### Final Comments and review of project
+
+## Footer
 
 ###### By Athavan, Anish, Erekle
