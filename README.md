@@ -1,6 +1,6 @@
 # Summer Project
 
-==**You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.**==
+**You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.**
 
 ## **Introduction**
 * **Detailed** description of your project including *user/s* and *user requirements*.
