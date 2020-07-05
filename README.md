@@ -1,13 +1,17 @@
+
 **You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.** 
 
 ## **Introduction**
 * **Detailed** description of your project including *user/s* and *user requirements*.
+  * Our Project is a stock prediction tool that utilises `Machine Learning` algorithms in order to forecast the stock market changes for a certain period of time in the future. Users would be anyone over the age of **18** attempting to build or to improve their *financial portfolio*. Our tool will aid them in investing and buying shares from companies as well allowing them to maximise the profits and minimise their losses. It also allows more inexperienced users to attain an understading of the movement of the **Stock Market** allowing them to make informed decisions about their future.
 
 * **Detailed** description of your *aims* – `SMART` objectives
+  * Our aims are to develop the tool as a `python package` and upload it to `PyPi` as an open source package for use all around the world. We want to allow for multiple different `algorithms` to be used thorugh the use of multiple `function` and `iteration` to make the results as accurate and reliable as possible. We expect the package to be finished within 3/4 weeks with `v0.1-alpha` already being released on `GitHub` as a pre-release. Release `v1.0` is expected to be our initial release and first fully functional version released in 3/4 weeks and then after that we shall use user feedback in the form of `issues` and `pull requests` on `GitHub` in order to improve the project.
 
 ### Description of current system in place or lack of system. 
 
 * Who are the users?
+  * The users are people interested in **finance** or the **economy** and our tool can be easily integrated in websites using the `Django` framework for python or in applications on desktop using `Cython/CPython` and `C++` or mobile through `Java` *(with *`Jython`*)* and `Swift`. 
 
 ## Design
 	 
@@ -29,6 +33,15 @@
 	* Structured English
 	* `Pseudocode`
 	* Program `flowchart`
+	
+### TaskList
+
+- [x] Write a function to get the Stock data for *user-specified* companies.
+- [ ] Write a function to use the data to predict using a `Support Vector Machine` algorithm.
+- [ ] Write a function to use the data to predict using an `Artificial Neural Network` algotithm.
+- [ ] Write a function to use the data to predict using an `Linear Regression` algorithm.
+- [ ] Iterate over the functions settings to find the best algorithm and its settings with the best coeffecient of determination R^2.
+- [ ] Develop a GUI for easier use either on an app or on a website.
 	
 ## Testing
 				 
