@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body {
+  font-family: Century;
+  font-size: 1.5rem;
+  line-height: 150%;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+.container h1 {
+  font-size: 2.2rem;
+}
+.container .instruction {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+.content {
+  margin-bottom: 2em;
+}
+.content p {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+.v1 p {
+  background-position: bottom left;
+  background-size: 0% 5px;
+  background-image: linear-gradient(#d63031, #d63031);
+  padding-bottom: 5px;
+}
+.v1:hover p {
+  background-size: 100% 5px;
+}
+.v2 p {
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(#55efc4, #55efc4);
+}
+.v2:hover p {
+  background-size: 100% 100%;
+}
+.v3 p {
+  color: transparent;
+  background-position: right;
+  background-size: 100% 100%;
+  background-image: linear-gradient(#0984e3, #0984e3);
+}
+.v3:hover p {
+  color: #000;
+  background-size: 0% 100%;
+}
+.v4 p {
+  background-position: bottom left;
+  background-size: 0% 3px;
+  background-image: repeating-linear-gradient(to right, #4834d4 0 3px, transparent 0 6px);
+  padding-bottom: 3px;
+}
+.v4:hover p {
+  background-size: 100% 3px;
+}
+.v5 p {
+  background-position: center left;
+  background-size: 100% 3px;
+  background-image: linear-gradient(to right, #000, #000);
+  padding-bottom: 3px;
+}
+.v5:hover p {
+  background-size: 100% 100%;
+  color: #fff;
+  background-image: linear-gradient(to right, #d63031, #d63031);
+}
+.v6 p {
+  background-position: center left;
+  background-size: 100% 4px;
+  background-image: linear-gradient(to right, #000, #000);
+  padding-bottom: 4px;
+}
+.v6:hover p {
+  background-position: bottom left;
+  background-size: 100% 2px;
+  font-style: italic;
+}
+.v7 p {
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(to right, #55efc4, #55efc4);
+}
+.v7:hover p {
+  background-position: right;
+  background-size: 100% 100%;
+}
+.v8 p {
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(to right, #55efc4, #ff0);
+  padding-bottom: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.v8:hover p {
+  background-size: 100% 100%;
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+    <div style="text-align: center;" class="instruction"> 🔆 Summer Project 🔆 </div>
+    <h1 style="text-align: center;">INTRODUCTION</h1>
+    <div style="text-align: center;" class="content v4">
+        <p>Detailed description of your project including user/s and user requirements</p>
+    </div>
+    <div class="content v2">
+        <p>Our Project is a stock prediction tool that utilises `Machine Learning` algorithms in order to forecast the stock market changes for a certain period of time in the future. Users would be anyone over the age of **18** attempting to build or to improve their *financial portfolio*. Our tool will aid them in investing and buying shares from companies as well allowing them to maximise the profits and minimise their losses. It also allows more inexperienced users to attain an understanding of the movement of the **Stock Market** allowing them to make informed decisions about their future.</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>**Detailed** description of your *aims* – `SMART` objectives</p>
+    </div>
+    <div class="content v2">
+        <p>Our aims are to develop the tool as a `python package` and upload it to `PyPi` as an open source package for use all around the world. We want to allow for multiple different `algorithms` to be used thorugh the use of multiple `function` and `iteration` to make the results as accurate and reliable as possible. We expect the package to be finished within 3/4 weeks with `v0.1-alpha` already being released on `GitHub` as a pre-release. Release `v1.0` is expected to be our initial release and first fully functional version released in 3/4 weeks and then after that we shall use user feedback in the form of `issues` and `pull requests` on `GitHub` in order to improve the project.</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Description of current system in place or lack of system.</p>
+    </div>
+    <div class="content v2">
+        <p>Who are the users? The users are people interested in **finance** or the **economy** and our tool can be easily integrated in websites using the `Django` framework for python or in applications on desktop using `Cython/CPython` and `C++` or mobile through `Java` *(with *`Jython`*)* and `Swift`. </p>
+    </div>
+    <h1 style="text-align: center;" > 💲 Design 💲 </h1>
+    <h2 style="text-align: center;" >System Design</h2>
+    <div style="text-align: center;" class="content v4">
+        <p>Show understanding of how to model a **complex** system by only including **essential** details</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Use a `structure chart` to express the parameters passed between the various modules *(input, process, output)</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Identify `procedures/functions` which are part of the `algorithm` design.</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Describe the *purpose* of a structure chart.</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Construct a structure chart for the problem.</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Derive equivalent `pseudo-code` from the structure chart.</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v4">
+        <p>Document a simple algorithm using: Structured English; `Pseudocode`; Program `flowchart`</p>
+    </div>
+    <div class="content v2">
+        <p>N/A</p>
+    </div>
+    <h2 style="text-align: center;" >✔ Task List ✔</h2>
+    <div style="text-align: center;" class="content v2">
+        <p>Write a function to get the Stock data for *user-specified* companies.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v2">
+        <p>Write a function to use the data to predict using a `Support Vector Machine` algorithm.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v2">
+        <p>Write a function to use the data to predict using an `Artificial Neural Network` algorithm.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v2">
+        <p>Write a function to use the data to predict using an `Linear Regression` algorithm.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v2">
+        <p>Iterate over the functions settings to find the best algorithm and its settings with the best co-efficient of determination R^2.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v2">
+        <p>Develop a GUI for easier use either on an app or on a website.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <h1 style="text-align: center;" >⚠ Testing ⚠</h1>
+    <h2 style="text-align: center;" >Develop a GUI for easier use either on an app or on a website.</h2>
+    <div style="text-align: center;" class="content v7">
+        <p>Write the program in a high-level language (e.g. `Python` or `VB.net`)</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <h2 style="text-align: center;" >System Testing</h2>
+    <div style="text-align: center;" class="content v7">
+        <p>Show awareness of why errors occur</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v7">
+        <p>Show understanding of how **testing** can expose possible errors.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v7">
+        <p>Appreciate the significance of testing throughout software development.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v7">
+        <p>Show understanding of the methods of testing available: `dry run, walk-through, white-box, black-box, integration, alpha, beta, acceptance.`</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v7">
+        <p>Show understanding of the need for a *test strategy* and *test plan* and their likely contents.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v7">
+        <p>Choose **appropriate** test data *(normal, abnormal and extreme/boundary)* for a test plan.</p>
+    </div>
+    <div class="content v8">
+        <p>N/A</p>
+    </div>
+    <h1 style="text-align: center;" > 🔁 Review 🔁 </h1>
+    <h2 style="text-align: center;" >User Review</h2>
+    <div style="text-align: center;" class="content v8">
+        <p>Ask your *prospective* users to test and provide **feedback** for your product.</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v8">
+        <p>What **improvements** could you make in the future?</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v8">
+        <p>Peer review from another member of the class.</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <h2 style="text-align: center;" >Project Evaluation</h2>
+    <div class="content v8">
+        <p>How did your project go?</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v8">
+        <p>Was it a success, why/why not?</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <div style="text-align: center;" class="content v8">
+        <p>How many of the `SMART` objectives did you meet – why/why not?</p>
+    </div>
+    <div class="content v5">
+        <p>N/A</p>
+    </div>
+    <h1 style="text-align: center;" >💬 Final Comment 💬</h1>
+    <div class="content v3">
+        <p>N/A</p>
+    </div>
+    <h1 style="text-align: center;" >Footer</h1>
+    <div class="content v6">
+        <p style="text-align: center;" >By Athavan, Anish, Erekle</p>
+    </div>
+</div>
+</body>
+</html>

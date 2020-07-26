@@ -6,8 +6,9 @@ import datetime
 import dateutil.relativedelta
 
 
-def getStock(companyName, month=12, window=15, plot=False, end=datetime.date.today(), mavgPlot=True):
+def getStock(companyName: str, month: int = 1, plot: bool = False, end=datetime.date.today(), mavgPlot: bool = False):
     # set date for data retrieval
+    window = 2 * month
     start = end - dateutil.relativedelta.relativedelta(months=int(month))
 
     # retrieve data from 'yahoo', type = 'Adj Close'
@@ -28,7 +29,8 @@ def getStock(companyName, month=12, window=15, plot=False, end=datetime.date.tod
         plt.show()
     return df, mavg, start
 
-# getStock(companyName='AAPL')
+
+#getStock(companyName='AAPL', plot=True, mavgPlot=False)
 
 # Mean Reversions - Using that knowledge to recognise that if it is predicted to go up it will also go back down
 # Unsupervised Learning
