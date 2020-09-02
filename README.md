@@ -48,9 +48,10 @@
 ### TaskList
 
 - [x] Write a function to get the Stock data for *user-specified* companies.
-- [ ] Write a function to use the data to predict using a `Support Vector Machine` algorithm.
-- [ ] Write a function to use the data to predict using an `Artificial Neural Network` algotithm.
-- [ ] Write a function to use the data to predict using an `Linear Regression` algorithm.
+- [x] Write a function to use the data to predict using a `Support Vector Machine` algorithm.
+- [x] Write a function to use the data to predict using an `Artificial Neural Network` algotithm.
+- [x] Write a function to use the data to predict using an `Linear Regression` algorithm.
+- [x] Develop an `API` in `Flask` and deploy to `Heroku` or another VPS/hosting site.
 - [ ] Iterate over the functions settings to find the best algorithm and its settings with the best coeffecient of determination R^2.
 - [ ] Develop a GUI for easier use either on an app or on a website.
 	
