@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: window
+    runs-on: Windows
     strategy:
       matrix:
         python-version: [3.8]
