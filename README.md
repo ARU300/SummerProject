@@ -1,4 +1,6 @@
 
+[![CodeFactor](https://www.codefactor.io/repository/github/aru300/summerproject/badge)](https://www.codefactor.io/repository/github/aru300/summerproject)
+
 **You are expected to design, code, and present to the class a programming project that has a purpose** *(solves a real problem)* **for a real life user.** 
 
 ## **Introduction**
