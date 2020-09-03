@@ -5,4 +5,9 @@ site_author: ARU300
 copyright: GNU General Public License v3.0
 nav:
     - Home: README.md
-    - 'Issue Tracker': 'https://github.com/ARU300/SummerProject/issues'
+    - 'PyPi': 'https://pypi.org/project/Summer-Project/'
+    - 'Github': 'https://github.com/ARU300/SummerProject'
+    - 'Issues': 'https://github.com/ARU300/SummerProject/issues'
+    - 'Pull Requests': 'https://github.com/ARU300/SummerProject/pulls'
+    - 'Github Pages': 'https://aru300.github.io/SummerProject/'
+
