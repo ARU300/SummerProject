@@ -1,7 +1,3 @@
----
-description: Changelog for versions
----
-
 # GitBook
 
 ## 1.0 - 03.09.2020
@@ -20,7 +16,6 @@ description: Changelog for versions
 * [x] Update the API
 * [x] Add external links
 
-{% page-ref page="./" %}
 
 ## 2.0 - 03.09.2020
 
