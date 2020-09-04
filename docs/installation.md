@@ -1,3 +1,7 @@
+layout: page
+title: "Installation"
+permalink: /installation
+
 # Installation
 
 ## Command Line Interface
