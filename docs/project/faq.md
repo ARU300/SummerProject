@@ -1,7 +1,3 @@
----
-description: Answering questions about the project.
----
-
 # FAQ
 
 ## Introduction
@@ -10,15 +6,11 @@ description: Answering questions about the project.
 
 Our Project is a **Stock Market Prediction tool** that utilises `Machine Learning` algorithms in models such as `Linear Regression` and `Support Vector Machine` in order to forecast the Stock Market changes for a certain period of time in the future. Our aims are to develop the tool as a python package and upload it to `PyPi` as an open source package for use all around the world. We want to allow for multiple different algorithms to be used through the use of multiple `function` and `iteration` to make the results as accurate and reliable as possible. We expect the package to be finished within 3/4 weeks. 
 
-{% hint style="info" %}
 For more up-to-date info, look [here](https://aru300.gitbook.io/summer-project/#introduction).
-{% endhint %}
 
 ### Who are the users?
 
 Users would be anyone over the age of **18,** attempting to _build_ or to _improve_ their **financial portfolio.** _****_Our tool will aid them in **investing** and **buying** shares from companies as well allowing them to maximise the profits and minimise their losses. It also allows more inexperienced users to attain an understanding of the movement of the **Stock Market** allowing them to make informed decisions about their future.
-
-{% page-ref page="../" %}
 
 ## **System Design**
 
@@ -97,9 +89,6 @@ Here is a simplified flowchart of the program.
 
 ![Flowchart Diagram](../.gitbook/assets/flowchart.png)
 
-{% tabs %}
-{% tab title="Main" %}
-{% code title="Predict.py" %}
 ```php
 OUTPUT 'What company do you want to predict?'
 INPUT companyName
@@ -127,11 +116,8 @@ CASE OF method
 ENDCASE
 OUTPUT 'The prediction for', companyName, 'is', prediction, '.'
 ```
-{% endcode %}
-{% endtab %}
 
-{% tab title="Function" %}
-{% code title="getStock\(\)" %}
+
 ```php
 df ← web.DataReader(companyName, 'yahoo', start, end)
 x ← 0
@@ -149,9 +135,6 @@ REPEAT
 UNTIL x = 72
 RETURN df, mavg
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
 
 _For information on the actual code check out:_
 
@@ -160,8 +143,6 @@ _For information on the actual code check out:_
 ### **System implementation**
 
 You can see examples of its usage and the code on [Github](https://github.com/ARU300/SummerProject) or on the page below.
-
-{% page-ref page="../" %}
 
 ### **System Testing**
 
