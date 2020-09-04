@@ -1,6 +1,7 @@
 # README
 
 [![CodeFactor](https://www.codefactor.io/repository/github/aru300/summerproject/badge)](https://www.codefactor.io/repository/github/aru300/summerproject) [![GitHub forks](https://img.shields.io/github/forks/ARU300/SummerProject)](https://github.com/ARU300/SummerProject/network) [![GitHub stars](https://img.shields.io/github/stars/ARU300/SummerProject)](https://github.com/ARU300/SummerProject/stargazers) [![GitHub license](https://img.shields.io/github/license/ARU300/SummerProject)](https://github.com/ARU300/SummerProject/blob/master/LICENSE) ![GitHub last commit](https://img.shields.io/github/last-commit/ARU300/SummerProject) ![GitHub Release Date](https://img.shields.io/github/release-date/ARU300/SummerProject) ![GitHub commits since tagged version](https://img.shields.io/github/commits-since/ARU300/SummerProject/2.0/master) ![GitHub language count](https://img.shields.io/github/languages/count/ARU300/SummerProject) ![GitHub repo size](https://img.shields.io/github/repo-size/ARU300/SummerProject)
+[![BCH compliance](https://bettercodehub.com/edge/badge/ARU300/Summer-Project?branch=master&token=5f5ca7a7ab31bf066f3d0d2a5a084f384a35753b)](https://bettercodehub.com/)
 
 **You are expected to design, code, and present to the class a programming project that has a purpose** _\(solves a real problem\)_ **for a real life user.**
 
