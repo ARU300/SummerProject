@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### Give a d**etailed** description of your project including user/s and user requirements and your aims.
+### Give a **detailed** description of your project including user/s and user requirements and your aims.
 
 Our Project is a **Stock Market Prediction tool** that utilises `Machine Learning` algorithms in models such as `Linear Regression` and `Support Vector Machine` in order to forecast the Stock Market changes for a certain period of time in the future. Our aims are to develop the tool as a python package and upload it to `PyPi` as an open source package for use all around the world. We want to allow for multiple different algorithms to be used through the use of multiple `function` and `iteration` to make the results as accurate and reliable as possible. We expect the package to be finished within 3/4 weeks. 
 
