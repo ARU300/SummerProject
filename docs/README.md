@@ -1,9 +1,8 @@
+# Summer Project
+
 ---
   You are expected to design, code, and present to the class a programming
   project that has a purpose (solves a real problem) for a real life user.
-
-
-# Summer Project
 
 ## Introduction
 
@@ -19,26 +18,19 @@ Our aims are to develop the tool as an _Official Python Package_ and upload it t
 
 The users are people interested in **finance** or the **economy** and our tool can be easily integrated into websites using the [`Django`](https://www.djangoproject.com/)  or [`Flask`](https://flask.palletsprojects.com/en/1.1.x/) framework for Python or in applications on desktop using **C++** or mobile through **Java** and/or **Swift**. Another alternative would be to develop a `RESTful API` with `Flask` _\(which has been made\)_ and then integrating this with a [`NodeJS`](https://nodejs.org/en/) application on the [`Electron`](https://www.electronjs.org/) framework using `AJAX` requests in Back-End in order to transfer the data to a modern-looking **GUI** or application.
 
-{% page-ref page="code/api.md" %}
-
 ## Releases
 
-{% hint style="warning" %}
 This may not be entirely up-to-date. For download, reference the [PyPi site](https://pypi.org/project/Summer-Project/) or the [Github site](https://github.com/ARU300/SummerProject/releases).
-{% endhint %}
 
-{% tabs %}
-{% tab title="v2.2a" %}
-## \*\*\*\*[**RTFD**](https://github.com/ARU300/SummerProject/releases/tag/v2.2a)\*\*\*\*
+## \*\*\*\*[RTFD](https://github.com/ARU300/SummerProject/releases/tag/v2.2a)\*\*\*\*
 
 \_\_[_ARU300_](https://github.com/ARU300) _released this 8 hours ago ·_ [_4 commits_](https://github.com/ARU300/SummerProject/compare/v2.2a...master) _to master since this release_
 
 * [Pre-Release](https://github.com/ARU300/SummerProject/commit/60ff49acceed82964c0e6351cc8b1c63307620b0)
 
  Another release for RTFD, updating the `mkdocs.yml`.
-{% endtab %}
 
-{% tab title="v2.1" %}
+
 ## [ReadTheDoc](https://github.com/ARU300/SummerProject/releases/tag/v2.1)
 
 [_ARU300_](https://github.com/ARU300) _released this 9 hours ago ·_ [_7 commits_](https://github.com/ARU300/SummerProject/compare/v2.1...master) _to master since this release_
@@ -48,9 +40,8 @@ This may not be entirely up-to-date. For download, reference the [PyPi site](htt
 Added a `.readthedocs.yml` and a `mkdir.yml` in order to integrate support with the ReadTheDocsSite.
 
 Documentation is now live on [Read The Docs](https://summerproj.readthedocs.io/en/master/).
-{% endtab %}
 
-{% tab title="v2.0" %}
+
 ##  [LSTM](https://github.com/ARU300/SummerProject/releases/tag/2.0)
 
  [_ARU300_](https://github.com/ARU300) _released this yesterday ·_ [_21 commits_](https://github.com/ARU300/SummerProject/compare/2.0...master) _to master since this release_
@@ -62,9 +53,8 @@ Since `v1.0` we have developed a new method of Stock Market Prediction using the
 The `API` has also been updated to include these changes.
 
 The next **major** update will entail document changes and maybe a deployment to `repl.it` or `Heroku`.
-{% endtab %}
 
-{% tab title="v1.0" %}
+
 ##  [API Prediction](https://github.com/ARU300/SummerProject/releases/tag/v1.0)
 
 [_ARU300_](https://github.com/ARU300) _released this on 26 Jul ·_ [_32 commits_](https://github.com/ARU300/SummerProject/compare/v1.0...master) _to master since this release_
@@ -86,9 +76,8 @@ We have developed an API and website in `Flask` that runs on `https:\\localhost:
 ### Future Development
 
 We are going to integrate an `LSTM` algorithm + some other algorithms and iteration to find the best prediction possible. This is expected to be our `v2.0` release. The `v1.X` updates may mainly include website changes and documentation changes.
-{% endtab %}
 
-{% tab title="v0.1a" %}
+
 ## [Stock Analysis](https://github.com/ARU300/SummerProject/releases/tag/v1.0-alpha)
 
 \_\_[_ARU300_](https://github.com/ARU300) _released this on 5 Jul ·_ [_32 commits_](https://github.com/ARU300/SummerProject/compare/v1.0-alpha...master) _to master since this release_
@@ -104,8 +93,7 @@ We are going to integrate an `LSTM` algorithm + some other algorithms and iterat
 * `Stock,py` works with a function named `getStock`. By entering the 'companyName' you can retrieve the stocks and a plot for the stocks from the previous year. \*\(To plot the results set the parameter 'plot' to true and 'mavgPlot' to true as well in order to plot the _Moving Average_ as well.
 * `SVM Predict.py` does work, however in pre-release `v0.1-alpha` it is not yet a function however it shall be in the `v1.0` release.
 * `Predict.py` does not work and will need to be improved and fixed.
-{% endtab %}
-{% endtabs %}
+
 
 ## Legal
 
