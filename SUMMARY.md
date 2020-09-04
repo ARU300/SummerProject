@@ -1,5 +1,13 @@
 # Table of contents
 
-* [README](README.md)
-* [Home](main.md)
+* [Summer Project](README.md)
+
+## Code
+
+* [Stock](code/stock.md)
+* [Predict](code/predict.md)
+
+---
+
+* [API](api.md)
 
