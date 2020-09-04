@@ -1,16 +1,9 @@
----
-description: File used to retrieve stock market data.
----
-
 # Stock
 
 ## Imports
 
 These are the following imports used in this file:
 
-{% tabs %}
-{% tab title="Python" %}
-{% code title="" %}
 ```python
 import pandas_datareader.data as web
 import matplotlib
@@ -19,22 +12,14 @@ import datetime
 import dateutil.relativedelta
 import numpy as np
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
 
-{% hint style="success" %}
 If you use the **Published PyPi Package**, the requirements will be downloaded automatically.
-{% endhint %}
 
 `Pandas_datareader` is used to retrieve the data from _Yahoo! Finance_.   
 `Matplotlib` is used as a graphing tool and is imported as **plt** for easier usage. The `datetime` module is install in Python by default and is used for _DateTime_ objects. `Numpy` is a scientific module which gives access to _NumPy Arrays_ which are easier and more useful for handling data in comparison to _Python Lists_.
 
 ## Code
 
-{% tabs %}
-{% tab title="Python" %}
-{% code title="" %}
 ```python
 today = datetime.date.today()
 def getStock(companyName: str, month: int = 1, plot: bool = False, end=today, mavgPlot: bool = False):
@@ -65,21 +50,14 @@ def getStock(companyName: str, month: int = 1, plot: bool = False, end=today, ma
         plt.show()
     return df, mavg, start
 ```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
 
 First we define the times using `datetime` and a variable called today. Then we define the function and setup the dates using the variables set by the user. 
 
-{% code title="Stock.py \# v2" %}
 ```python
 def getStock(companyName: str, month: int = 1, plot: bool = False, end=today, mavgPlot: bool = False):
 ```
-{% endcode %}
 
-{% hint style="warning" %}
  The only required arguement for the above function is `companyName` so this must be defined when using the function.
-{% endhint %}
 
 `df` is a variable for a Pandas Dataframe. This allows us to plot and visualise the data using `plt` which is very useful in determining the results of our algorithms and seeing whether our predictions are accurate instead of reading an array of `floats`.
 
