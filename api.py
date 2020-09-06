@@ -1,13 +1,13 @@
 from flask import Flask, render_template, request, jsonify, abort
-from Stock_Analysis.Predict import stockPredict
+from StockAnalysis.Predict import stockPredict
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='templates') #, static_folder='C:\\Users\\athavan\\Documents\\Projects\\Summer\\SummerProject\\templates')
 app.config["DEBUG"] = True
 
 
 @app.route('/')
 def home():
-    return render_template("docs.html")
+    return render_template("Summer Project.html")
 
 
 @app.errorhandler(404)
