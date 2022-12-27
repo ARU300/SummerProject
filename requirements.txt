@@ -26,7 +26,7 @@ pandas_datareader == 0.9.0
 python_dateutil == 2.8.1
 
 # C:\Users\ARU300\Documents\Projects\Summer\SummerProject\setup.py: 1
-setuptools == 47.1.0
+setuptools == 65.5.1
 
 # C:\Users\ARU300\Documents\Projects\Summer\SummerProject\Stock_Analysis\Predict.py: 12,13,14
 sklearn == 0.0
